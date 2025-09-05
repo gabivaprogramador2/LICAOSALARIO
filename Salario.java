@@ -12,9 +12,11 @@ public class Main
 	System.out.println("Digite seu salario: ");
 	salarioB = oT.nextDouble();
 	
-	salarioL = (salarioB /100)*8;
+	desconto = (salarioB /100)*8;
+	salarioL = salarioB - desconto;
 	
 	System.out.println("Seu salario líquido é: " + salarioL);
 
 	}
+
 };
